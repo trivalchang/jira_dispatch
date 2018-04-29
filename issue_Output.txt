@@ -1,0 +1,333 @@
+1,DTG HD playback freeze DTG HD playback Auto tuning Green key key blue key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD SPEC DTG HD SPEC HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key SPEC reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD screen DTG HD screen Country Auto tuning Green key screen disappear blue key issue Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD reference DTG HD reference HD graphics bitmap Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD red key DTG HD red key Destructive Tune Country Auto tuning tuneable Modulation Code rate Guard interval Mode Green key video red key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD reference background DTG HD reference background HD graphics bitmap Country Auto tuning tuneable Modulation Code rate Guard interval Mode reference background Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD screen DTG HD screen LCN Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key screen Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD reference DTG HD reference Country Auto tuning tuneable Modulation Code rate Guard interval Mode rate green key Setting reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD Channel DTG HD Channel tuning Channel reference sound service audio Stream Certification DTG DTG HD HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD screen DTG HD screen Country Auto tuning video Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG cross alignment DTG cross Country Auto tuning Wide cross alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD video playback sound DTG HD video playback Auto tuning key green video playback sound video playback Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG sound DTG sound Country Auto tuning Channel Receiver audio audio sound audio audio sound audio mute audio Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD disappear DTG HD Auto tuning screen disappear issue Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD sound DTG HD sound Auto tuning DTG key black sound DTG Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG cross alignment DTG cross Scaling Country Auto tuning Channel Receiver Scaling cross alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG DTG Country Auto tuning Channel Receiver bitmap bitmap full screen number bitmap rectangle rectangle display ratio screen width Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG reference DTG reference Country Auto tuning reference issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key full screen full screen video Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DVB
+1,
+1,Stream
+1,black black DVB black
+1,DTG HD screen DTG HD screen Country Auto tuning Setting screen Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD cross alignment DTG HD cross Auto tuning Setting cross alignment Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD display subtitle DTG HD display Country Auto tuning Setting SPEC key key display subtitle reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG subtitle display DTG subtitle display Channel Country Auto tuning Wide Channel Receiver Receiver subtitle display video audio Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG DTG HD DTG Auto tuning DTG key DTG screen issue reference DTG Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG DTG DTG DTG Country Auto tuning service yellow key DTG blue key DTG Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DVB key DVB key DVB Stream Certification DTG Auto tuning key
+1,DTG DTG Country Auto Wide Wide Wide Auto tuning Receiver screen reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG video subtitle DTG video subtitle stream Country Auto tuning Receiver Stream blue key subtitle display screen ratio reference screen black Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,video sound video sound sound video black stream
+1,Browser Browser Country Auto tuning Browser Modulation Guard interval Code rate Browser number green DVB SPEC Stream Certification Browser Browser Stream Certification Browser
+1,Browser Browser Auto tuning Browser Modulation Guard interval Code rate Browser number key screen display display DVB SPEC Stream Certification Browser Browser Stream Certification Browser
+1,Browser message Signal Browser message Signal Auto tuning Browser Modulation Guard interval Code rate Browser number red key screen message Signal SPEC Stream Certification Browser Browser Stream Certification Browser
+1,Browser screen garbage Browser screen Country Auto tuning Browser Modulation Guard interval Code rate service Browser garbage stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,Browser screen Browser screen Country Auto tuning Browser Modulation Guard interval Code rate service Browser screen random background background background stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,Browser Browser Scaling Country Auto tuning Browser Modulation Guard interval Code rate service Browser Scaling message video background stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,Browser alignment Browser Country Auto tuning Browser Modulation Guard interval Code rate service Browser alignment blue blue green white stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,DTG screen DTG screen stream Country Auto tuning Receiver Stream green key screen reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG DTG tuning screen issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,Browser screen garbage Browser screen Country Auto tuning Browser Modulation Guard interval Code rate service Browser screen garbage stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,DTG screen error DTG screen Country Auto Wide Wide Wide Auto tuning key Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG DTG Country Auto tuning Wide Channel Receiver screen black audio stream video display black audio screen black audio video black description Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,CEC HDMI CEC HDMI
+1,DVB
+1,DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,screen screen Stream Certification DTG Country Channel Stream screen screen
+1,DVB video blue DVB video blue video blue video blue video
+1,DTG HD reference DTG HD reference Country Auto tuning tuneable Modulation Code rate Guard interval Mode reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DVB video DVB video Stream Stream Certification DTG Channel video black cross black
+1,DTG HD green key DTG HD green key Auto tuning Setting green key green key reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD reference DTG HD reference Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG screen DTG screen Stream Country Auto tuning Wide Channel Receiver Stream screen flicker sound full screen audio Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Auto tuning Green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG screen disappear DTG screen Country Auto tuning Menu playback video disappear video reference video video display reference audio reference audio video display black audio Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD Green key DTG HD Green key Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode Green video audio Green key audio video audio reference Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG display SPEC DTG display Country Auto tuning Wide Green key screen Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG sound DTG sound Country Auto Wide Wide Wide Auto tuning Receiver key reference full issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD subtitle display DTG HD subtitle Auto tuning Setting SPEC key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning black HD black Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,Browser blue key video flicker Browser blue key video Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser key video message SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser DVB
+1,DTG reference DTG reference Country Auto tuning Wide blue key reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,Browser key cross Browser key Country stream Browser Auto tuning Modulation Guard interval Code rate service key cross cross reference screen key blue blue green white SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser DVB
+1,DTG HD blue key DTG HD blue key Country Auto tuning key Green key key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,Browser reference Browser reference Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser reference Auto Mode Wide SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+1,DVB Browser screen CAM display black DTG Stream Certification DTG Stream Certification Browser Browser
+1,Browser Browser Country Auto tuning Browser Modulation Guard interval Code rate service Browser blue key display SPEC message stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,Browser SPEC Browser SPEC Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser SPEC SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+1,Browser green flicker Browser green Country tuning Browser service blue key green key screen flicker reference Stream Certification Browser Browser SPEC Browser Stream Certification Browser Browser Browser
+1,DTG HD blue key DTG HD blue key Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key random blue key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,Browser key screen Browser key screen Stream Country tuning Browser service key yellow key screen Stream Certification Browser Browser SPEC Browser Stream Certification Browser Browser Browser DVB
+1,Browser Browser Country Auto tuning Browser Modulation Guard interval Code rate service Browser red green blue overlap rectangle rectangle red rectangle blue green stream Stream Certification Browser Stream Certification Browser Browser DTG DVB
+1,DTG cross alignment DTG cross Country Auto tuning Wide Green cross alignment alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD display key DTG HD display key Country Auto tuning Green key key key Green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG cross alignment DTG cross Country Auto Wide Wide Wide Auto tuning Receiver Green key cross alignment screen cross alignment cross alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD playback DTG HD playback Auto tuning Stream Mode Code Guard Channel Channel Channel reference Stream Certification DTG DTG HD Stream Certification DTG DTG HD
+1,DTG display reference DTG display reference tuning Channel reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG playback DTG Country Auto tuning Menu playback video playback Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,Browser key Browser key Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser Green key key key SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser DVB
+1,key key Country tuning key key key key Stream Certification SPEC Stream Certification DVB
+1,Browser key Browser key Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser key SPEC Green key number number key key key SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser DVB
+1,DTG HD SPEC DTG HD SPEC Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue SPEC Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,Browser key mheg Browser key Auto tuning Browser Modulation Guard interval Code rate Browser number key key key SPEC DVB SPEC Stream Certification Browser Browser Stream Certification Browser
+1,DTG HD DTG HD Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD SPEC DTG HD SPEC Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key SPEC Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Channel Country Auto tuning tuneable Modulation Code rate Guard interval Mode Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode Green Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD display DTG HD display Country Auto tuning display Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Auto tuning Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD SPEC DTG HD Auto tuning key yellow key sound mute Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Stream Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning Green video sound Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DVB cross alignment DVB cross DVB Country Auto tuning screen
+1,DTG disappear DTG disappear Country Auto Wide Wide Wide Auto tuning Receiver Green key disappear Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG DTG Country Auto tuning Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD error DTG HD Auto tuning mute Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Country Auto tuning tuneable Modulation Code rate Guard interval Mode green key Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD blue DTG HD blue Country Auto tuning tuneable Modulation Code rate Guard interval Mode blue key blue Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD disappear DTG HD Auto tuning screen video stream video screen black Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD DTG HD Auto tuning key video Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG DTG Stream Stream Certification DTG DTG HD Auto Country Stream
+1,DTG HD key video DTG HD key video Country Auto tuning video playback Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG DTG Country Auto tuning Wide Green key reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Auto tuning Channel Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD playback Country Auto tuning stream display number number green red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD Country Auto tuning green key stream stream error green red green message red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD Country Auto tuning green key stream video audio stream error green green message red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key reference DTG HD green key reference Country Auto tuning green key video stream audio Stream stream stream error green red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD disappear subtitle display DTG HD disappear subtitle Auto tuning Setting video screen disappear reference disappear green key audio sound Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD green key DTG HD green key Country Auto tuning green key green key Channel network network screen Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,Browser display Browser display Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser blue key blue key display reference SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+1,DTG subtitle display DTG subtitle Country Auto tuning Wide Channel Receiver key subtitle subtitle display Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD DTG HD Country Auto tuning green key stream error green Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key display DTG HD green key display Country Auto tuning Channel green key display Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD blue key DTG HD blue key Country Auto tuning Channel green key key blue key Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key DTG HD green key Country Auto tuning Channel green key stream Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG error DTG Country Auto tuning Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,DTG HD green key screen DTG HD green key screen Country Auto tuning Channel green key screen reference green green message red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key screen DTG HD green key screen Country Auto tuning Channel green key screen green green message red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key DTG HD green key Country Auto tuning Channel green key message green rectangle error message red rectangle Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG DTG LCN Country Auto tuning Wide key position green rectangle DTG logo video DTG logo green Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,DTG cross alignment DTG cross LCN Country Auto tuning Wide Receiver cross alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,DTG cross alignment DTG cross LCN Country Auto tuning Wide Receiver key cross alignment Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,DTG HD DTG HD Country Auto tuning green key Receiver service green key blue key service screen green red key LCN display green Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD Green key DTG HD Green key Country Auto tuning Green key key audio Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key ics DTG HD green key ics Country Auto tuning green key ics video background rate video rate rate video rate green message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD display DTG HD display Country Auto tuning Channel green key green key display reference display green key display display green key display Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,Browser cross alignment cross Browser cross alignment cross Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser key cross alignment cross reference SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+1,DTG HD background display DTG HD background display Country Auto tuning background display reference background blue reference blue Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG screen SPEC DTG screen SPEC Country Auto tuning display screen Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG green DTG green Country Auto tuning screen Green key Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD playback DTG HD Auto tuning Green key video sound key Green key sound Stream Certification DTG DTG HD HD HD SPEC HD Stream Certification DTG DTG HD HD HD DVB
+1,DTG HD green key DTG HD green key Country Auto tuning green key green green message red red message execute green Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD key DTG HD key Mode Country Auto tuning green key video video display video screen garbage video screen garbage video screen garbage sound key number key video video Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD red DTG HD red Country Auto tuning green key red error green green message red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD stream Country Auto tuning Stream green key video audio audio stream video sound video stream audio stream Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,Auto subtitle Stream Certification SPEC Stream Certification
+1,DTG HD screen DTG HD screen LCN Country Auto tuning reference Stream Certification DTG DTG HD HD SPEC Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD Country Auto tuning video screen audio description audio Green stream description audio Green audio description audio green audio audio green green Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD network Country Auto tuning green key network Receiver display Receiver display Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG reference DTG reference tuning Channel reference Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD DVB
+1,DTG HD background cross DTG HD background ratio Country Auto tuning ratio green background cross Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD green key DTG HD green key Country Auto tuning green key background display HD graphics graphics HD graphics graphics Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG black DTG black Country Auto tuning Receiver key key video audio Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+1,DTG HD screen DTG HD screen Auto Menu blue key green key screen Stream Certification DTG DTG HD HD SPEC Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD Country Auto tuning green key green Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG HD audio DTG HD audio Stream Country Auto Menu key green key audio black audio Stream Certification DTG DTG HD HD SPEC Stream Certification DTG DTG HD HD
+1,DTG HD DTG HD Country Auto tuning Channel stream display message green red red message Stream Certification DTG DTG HD HD HD Stream Certification DTG DTG HD HD
+1,DTG playback DTG Country Auto tuning Menu playback video playback Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,screen logo
+0,Browser cross alignment cross Browser cross alignment cross Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser key cross alignment cross reference SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+0,DTG DTG Auto tuning Channel screen display garbage Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,
+0,
+0,display display DTG display issue
+0,screen sound screen sound sound screen
+0,DTG service display DTG service display Country Auto tuning service service service service key service key Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,screen flicker
+0,DVB DVB DVB DVB Stream Certification DTG tuning blue
+0,
+0,DVB DVB screen audio sound sound screen audio sound
+0,Browser blue key screen flicker Browser blue key screen Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser key blue key screen flicker SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+0,playback playback sound sound
+0,screen screen DVB HDMI screen
+0,
+0,DTG display DTG display Country Auto tuning Green key display Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,display
+0,DTG DTG Country Auto tuning Channel service display service Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,video playback playback playback
+0,rate playback rate playback rate
+0,
+0,LCN reference LCN reference Country Auto tuning LCN reference Stream Certification SPEC Stream Certification
+0,DTG HD display DTG HD display Country Auto tuning Stream Mode Code Guard Channel display description Stream Certification DTG DTG HD Stream Certification DTG DTG HD
+0,HDMI playback
+0,HDMI HDMI sound mute sound sound sound
+0,
+0,DTG DTG Country Auto tuning key reference service service service key service key Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,Browser reference Browser reference Stream Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser Green key reference SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+0,key key DVB key key key
+0,Country
+0,key key CAM Country tuning key key issue SPEC Stream Certification Stream Certification
+0,
+0,DTG Channel DTG Channel Country Auto tuning service service service service LCN stream Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Menu display screen playback issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,playback video
+0,
+0,
+0,DVB DVB Country
+0,DVB error DVB error DVB playback key issue error
+0,DTG HD Channel reference DTG HD Channel reference Country Auto tuning Stream Mode Code Guard Channel sound reference Stream Certification DTG DTG HD Stream Certification DTG DTG HD
+0,screen screen screen screen
+0,Browser audio Signal Browser audio Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser yellow key audio Signal reference SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+0,DTG HD DTG HD stream DVB Country Auto tuning Stream Mode Code Guard Channel service subtitle reference display Stream Certification DTG DTG HD Stream Certification DTG DTG HD
+0,video video Country Auto tuning rate rate video SPEC Stream Certification Stream Certification
+0,video video Country Auto tuning video SPEC Stream Certification Stream Certification
+0,video video Country Auto tuning stream Modulation Mode Guard Code service video SPEC Stream Certification Stream Certification
+0,DVB DVB
+0,video video CAM Country Auto tuning service stream stream video SPEC Stream Certification Stream Certification
+0,video playback video display error video playback video display error video playback display error
+0,DTG HD DTG HD Country Auto tuning Stream Mode Code Guard Channel service description description Stream Certification DTG DTG HD Stream Certification DTG DTG HD
+0,DTG DTG Auto tuning Channel video Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,video
+0,
+0,logo
+0,DVB screen DVB screen screen
+0,HDMI HDMI HDMI HDMI
+0,HDMI HDMI HDMI HDMI
+0,DVB display tuning DVB display tuning Stream DVB HDMI display
+0,DVB screen sound DVB screen sound screen sound screen sound
+0,video screen video screen video screen screen screen
+0,Browser key Browser key Country stream Browser Auto tuning Modulation Guard interval Code rate Browser number key key SPEC SPEC Browser Stream Certification Browser Stream Certification Browser
+0,DTG screen black DTG screen Country Auto tuning black reference playback service service service service LCN stream Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,
+0,
+0,key Menu
+0,video
+0,HDMI key display HDMI key display DVB key HDMI key display key display
+0,DTG service display DTG service display Country Auto tuning service service service key service key Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,
+0,video video video video black
+0,Mode picture
+0,DTG description DTG description Country Auto tuning Channel description description description issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning display service service service service service service service service service service service LCN Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG display DTG Country Auto tuning Channel description description display description service Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Channel description service Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG display service DTG display service Auto tuning garbage issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,key
+0,Channel Channel Channel stream Stream HD video display
+0,
+0,DTG DTG Country Auto tuning Channel display issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning stream Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,
+0,
+0,
+0,playback video
+0,playback video
+0,playback video
+0,playback playback DVB playback playback
+0,noise Auto display
+0,DVB screen black sound DVB screen black sound screen black sound key screen black sound
+0,
+0,DTG display DTG display Country Auto tuning screen full stream service Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DVB sound sound sound
+0,playback video playback video screen
+0,key key black screen
+0,key
+0,CEC display CEC display DVB HDMI CEC key display CEC display CEC CEC display display display
+0,
+0,Signal tuning
+0,DTG DTG Country Auto tuning Channel Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Channel service display Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG display DTG Country Auto tuning Channel reference display Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,key key display display
+0,sound sound video sound
+0,video video video video
+0,DVB screen playback DVB screen playback screen playback key screen playback
+0,DVB DVB
+0,CEC CEC screen issue
+0,DTG DTG Country Auto tuning Channel Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning display HD service service service service service service HD service HD service HD service service LCN Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,key key
+0,issue
+0,HDMI HDMI HDMI Channel HDMI HDMI HDMI HDMI Channel HDMI screen
+0,DTG Channel DTG Channel Country Auto tuning Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,key playback key key
+0,picture
+0,
+0,DTG DTG Auto tuning Channel issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,
+0,sound sound tuning sound
+0,key key key key
+0,playback playback playback
+0,DVB key sound screen DVB key sound screen key sound screen sound screen
+0,DTG display DTG Country Auto tuning Channel display issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Channel Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,DTG DTG Country Auto tuning Channel issue Stream Certification DTG DTG HD SPEC Stream Certification DTG DTG HD
+0,issue
+0,DVB playback key
+0,DVB sound key mute sound
+0,display display DVB tuning display
+0,item item DVB key item video key item
+0,DVB DVB DVB display screen
+0,
+0,DVB HDMI DVB HDMI HDMI HDMI
+0,
+0,HDMI HDMI DVB HDMI HDMI
+0,
+0,
+0,
+0,playback playback sound
+0,
+0,
+0,network network Stream Stream Certification Stream Country service network service network service network
+0,playback
+0,
+0,
+0,frame frame cross frame frame frame
+0,key
+0,error error frame frame frame
+0,cross frame
+0,frame random error frame random error issue frame random error cross frame frame frame
+0,error cross frame frame frame
+0,video screen video sound HD
+0,HD
+0,screen screen screen video
+0,screen screen screen
+0,screen garbage screen screen garbage
+0,
+0,CAM Country stream Modulation Mode Guard Code service CAM stream Stream Certification SPEC Stream Certification
+0,
+0,
+0,HD display
+0,Browser green Browser green Country stream Browser Auto tuning Modulation Guard interval Code rate service Browser green green key green SPEC Stream Certification Browser Browser DTG Stream Certification Browser Browser Browser Stream Certification Browser Browser
+0,HDMI HDMI HDMI HDMI HDMI playback
+0,
+0,screen sound
+0,DVB sound sound random
+0,service issue service
+0,video playback issue
+0,
+0,CAM Country stream Modulation Mode Guard Code service CAM display service service execute Stream Certification SPEC Stream Certification
+0,playback
+0,
+0,
