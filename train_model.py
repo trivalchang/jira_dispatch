@@ -6,13 +6,14 @@ import random
 from collections import OrderedDict
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
+from keras.models import Sequential
+from keras.layers import Dense, Activation
 
 import numpy as np
 import argparse
 
 sys.path.append('./utility')
 
-from fileOp.h5_dataset import h5_dump_dataset, h5_load_dataset
 
 assigneeList = dict()
 def main():
@@ -40,10 +41,48 @@ def main():
 	train_text = positiveText[:args['number']] + negativeText[:args['number']]
 	train_label = positiveLabel[:args['number']] + negativeLabel[:args['number']]
 
+	evaluate_start = args['number']
+	evaluate_end = args['number'] + 10
+	evaluate_text = positiveText[evaluate_start:evaluate_end] + negativeText[evaluate_start:evaluate_end]
+	evaluate_label = positiveLabel[evaluate_start:evaluate_end] + negativeLabel[evaluate_start:evaluate_end]
+
+	test_start = evaluate_end
+	test_end = test_start + 10
+	test_text = positiveText[test_start:test_end] + negativeText[test_start:test_end]
+	test_label = positiveLabel[test_start:test_end] + negativeLabel[test_start:test_end]
+
 	tokenizer = Tokenizer()
 	tokenizer.fit_on_texts(train_text)
 	issue_matrix = tokenizer.texts_to_matrix(train_text)
 	issue_matrix = pad_sequences(issue_matrix, maxlen=100)
 
+	model = Sequential()
+	model.add(Dense(256, input_dim=100, activation='sigmoid'))
+	model.add(Dense(128, input_dim=100, activation='sigmoid'))
+	model.add(Dense(1, activation='sigmoid'))
+	#model.add(Dense(128))
+	#model.add(Activation('sigmoid'))
+	model.compile(optimizer='rmsprop',
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+	input_data = np.asarray(issue_matrix)
+	input_label = np.asarray(train_label)
+	model.summary()
+	model.fit(input_data, input_label, epochs=100, batch_size=10)
 
+	issue_matrix = tokenizer.texts_to_matrix(evaluate_text)
+	issue_matrix = pad_sequences(issue_matrix, maxlen=100)
+	input_data = np.asarray(issue_matrix)
+	input_label = np.asarray(evaluate_label)
+	score = model.evaluate(input_data, input_label)
+	print('score = ', score)
+
+	issue_matrix = tokenizer.texts_to_matrix(test_text)
+	issue_matrix = pad_sequences(issue_matrix, maxlen=100)
+	input_data = np.asarray(issue_matrix)
+	input_label = np.asarray(test_label)
+
+	predict = model.predict(input_data)
+	print('predict = ', predict > 0.6)
+	print('real = ', input_label)
 main()
