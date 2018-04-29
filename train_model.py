@@ -47,7 +47,7 @@ def main():
 	evaluate_label = positiveLabel[evaluate_start:evaluate_end] + negativeLabel[evaluate_start:evaluate_end]
 
 	test_start = evaluate_end
-	test_end = test_start + 10
+	test_end = test_start + 20
 	test_text = positiveText[test_start:test_end] + negativeText[test_start:test_end]
 	test_label = positiveLabel[test_start:test_end] + negativeLabel[test_start:test_end]
 
@@ -68,7 +68,7 @@ def main():
 	input_data = np.asarray(issue_matrix)
 	input_label = np.asarray(train_label)
 	model.summary()
-	model.fit(input_data, input_label, epochs=100, batch_size=10)
+	model.fit(input_data, input_label, validation_split=0.1, epochs=100, batch_size=10)
 
 	issue_matrix = tokenizer.texts_to_matrix(evaluate_text)
 	issue_matrix = pad_sequences(issue_matrix, maxlen=100)
@@ -82,7 +82,12 @@ def main():
 	input_data = np.asarray(issue_matrix)
 	input_label = np.asarray(test_label)
 
-	predict = model.predict(input_data)
-	print('predict = ', predict > 0.6)
+	predict = model.predict(input_data).flatten()
+	predict = [1 if p > 0.7 else 0 for p in predict]
+	predict = np.asarray(predict)
+	print('predict = ', predict)
 	print('real = ', input_label)
+	diff =  predict - input_label
+	diff_cnt = np.count_nonzero(diff)
+	print('incorrect = {}/{}'.format(diff_cnt, predict.shape[0]))
 main()
