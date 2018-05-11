@@ -26,3 +26,35 @@
 字幕  subtitle
 問題  issue
 影片  video
+髒畫面 garbage
+掃台 scan
+倒轉  rewind
+恢復  resume
+錄影  record
+童鎖  parental lock
+快進  forward
+語言  language
+切換  change
+信號  signal
+碼流  stream
+節目  program
+自動  auto
+手動  manual
+遙控器 remote controller
+音軌  sound track
+頻道  channel
+排序  sorting
+區域  region
+電源  power
+量測  measure
+網路  network
+耳機  headphone
+音量  volume
+藍芽  bluetooth
+時間  time
+顏色  color
+異常  abnormal
+破圖  abnormal
+符號  symbol
+搜台  scan
+菜單  menu
