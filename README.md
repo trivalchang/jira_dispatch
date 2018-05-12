@@ -28,3 +28,22 @@ issue_Output.txt contains all issues belonging to assginees in  **assigneee.txt*
 > TESTPRO01,1, program crash key press
 
 the first value is the key of the issue. The second is the label of the issue assignee and the 3rd is a string extracted from issue's title, summary. 
+
+## train_model.py
+
+> usage: train_model.py [-h] -f FEATURE -n NUMBER
+
+> optional arguments:<br />
+  > -h, --help                      show this help message and exit<br />
+  > -f FEATURE, --feature FEATURE   feature file<br />
+  > -n NUMBER, --number NUMBER      percentage of training sample in feature file <br />
+  
+> example: python train_model.py -f issue_Output.txt -n 0.8  
+
+### python modules required
+
+**keras** - preprocessing of text, neuron network components
+**sklearn.preprocessing.MinMaxScaler** - to normalize the feature text
+**pandas** - to analyze the prediciton result
+
+
