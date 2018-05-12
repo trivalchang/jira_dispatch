@@ -42,8 +42,10 @@ the first value is the key of the issue. The second is the label of the issue as
 
 ### python modules required
 
-**keras** - preprocessing of text, neuron network components
-**sklearn.preprocessing.MinMaxScaler** - to normalize the feature text
-**pandas** - to analyze the prediciton result
+**keras** - preprocessing of text, neuron network components<br />
+**sklearn.preprocessing.MinMaxScaler** - to normalize the feature text<br />
+**pandas** - to analyze the prediciton result<br />
+
+
 
 
