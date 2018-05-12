@@ -9,13 +9,22 @@ There are 2 python programs for this project.
 
 ## extract_issue.py
 
-Users must provide xml files from Jira server. A valid xml file for training/testing must include 4 tags of a issue, *title*, *summary*, *key*, *description* and *assignee*. Since I want to predict the issue owner where the issue is created, other Jira field is not used.
+Users must provide xml files from Jira server. A valid xml file for training/testing must include 4 tags of an issue, *title*, *summary*, *key*, *description* and *assignee*. Since I want to predict the issue owner where the issue is created, other Jira field is not used.
 
-python modules required
+### python modules required
 
 **libxml** - XML parser<br />
 **nltk** - lemmatize English word to find the base form of the word. For example, "words" will be transformed to "word". After this process, an issue with "words" has the same feature with a issue with 'word'.<br />
-**hanziconv** - to translate traditional Chinese words to Simplified Chinese words. My jira issues are mixed by English, simplified Chinese and traditional Chinese. So I have to translate some Chinese words.
+**hanziconv** - to translate traditional Chinese words to Simplified Chinese words. My jira issues are mixed by English, simplified Chinese and traditional Chinese. So I have to translate some Chinese words to English.
 
-Several text files are required
+### Several text files are required<br />
+**translate.txt** - a mapping table for traditional Chinese to English. Chinese words not in this file will be discarded.<br />
+**vocabulary.txt** - English words that will be keeped for the feature vector<br />
+**assigneee.txt** - a mapping table for the name of the real assignee to a interger class label
 
+### the output
+extract_issue.py parses the xml files and outputs a csv file issue_Output.txt.<br />
+issue_Output.txt contains all issues belonging to assginees in  **assigneee.txt**.
+> TESTPRO01,1, program crash key press
+
+the first value is the key of the issue. The second is the label of the issue assignee and the 3rd is a string extracted from issue's title, summary. 
