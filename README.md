@@ -1,10 +1,10 @@
 # jira_dispatch
 
-In a big software project, finding the owner of a new issue could be painful. So I create this project to predict the owner of the issue.
+In a big software project, finding the owner of a new issue could be painful. So I try to create a project to predict the owner of the issue. This problem is a multi-class classification problem.
 
 Jira is a popular software tracking system. Although I build this project on Jira, it shall work well on other software tracking system such as mantis. 
 
-**This is an immature project built by an amateur.**
+**This is an immature project built by an amateur.** 
 
 There are 2 python programs for this project.
 
