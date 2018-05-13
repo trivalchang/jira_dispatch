@@ -46,6 +46,9 @@ the first value is the key of the issue. The second is the label of the issue as
 **sklearn.preprocessing.MinMaxScaler** - to normalize the feature text<br />
 **pandas** - to analyze the prediciton result<br />
 
+train_model.py starts with reading the output file of extract_issue.py and split the issues into training data and test data. Then, keras Tokenizer is used to gernerate the feature vectors in tf-idf mode and normalize these feature vectors by MinMaxScaler.
+
+After the above process, I use keras Sequential model to train and predict. The accuracy is about 65% correct. After analyzing the output, I think the accuracy could be further improved if the better descriotion of the issues are given.
 
 
 
