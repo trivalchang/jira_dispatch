@@ -49,7 +49,7 @@ the first value is the key of the issue. The second is the label of the issue as
 train_model.py starts with reading the output file of extract_issue.py and split the issues into training data and test data. Then, keras Tokenizer is used to gernerate the feature vectors in tf-idf mode and normalize these feature vectors by MinMaxScaler.
 
 After the above process, I use keras Sequential model to train and predict. <br />
-With 500 issues with 10 assigness, the model can achieves 65% accuracy. After analyzing the output, I think the accuracy could be further improved if the better descriotion of the issues are given.
+With a 500 issues, 10 assignees of training data, the model can achieves 65% accuracy on test data. After analyzing the output, I think the accuracy could be further improved if the better descriotion of the issues are given.
 
 
 
