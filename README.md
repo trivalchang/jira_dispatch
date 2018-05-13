@@ -1,6 +1,10 @@
 # jira_dispatch
 
-This is to extract issues from Jira, a software tracking system, and use deep learning to find the possibile owner of the issue.
+In a big software project, finding the owner of a new issue could be painful. So I create this project to predict the owner of the issue.
+
+Jira is a popular software tracking system. Although I build this project on Jira, it shall work well on other software tracking system such as mantis. 
+
+**This is an immature project built by an amateur.**
 
 There are 2 python programs for this project.
 
