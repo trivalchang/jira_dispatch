@@ -100,33 +100,32 @@ def main():
 		
 		
 	tokenizer = Tokenizer()
+	# find the words by tokenizer  
 	tokenizer.fit_on_texts(train_text)
-	#train_matrix = tokenizer.texts_to_matrix(train_text)
-	#train_matrix = pad_sequences(issue_matrix, maxlen=200)
+	# transform the text to tf-idf feature vector
 	issue_matrix = tokenizer.texts_to_matrix(train_text+test_text, mode='tfidf')
-	scaler = MinMaxScaler(feature_range=(0, 1))
+	# normalize the feature vector
+	scaler = MinMaxScaler(feature_range=(-1, 1))
 	issue_matrix = scaler.fit_transform(issue_matrix)
+	# split training data and test data
 	train_matrix = issue_matrix[:len(train_text)]
 	test_matrix = issue_matrix[len(train_text):]
 	
 	#kernel_init=initializers.random_normal(stddev=0.01)
 	kernel_init=initializers.RandomUniform(minval=-0.05, maxval=0.05, seed=None)
 	
+	# establish model
 	model = Sequential()
 	model.add(Dense(512, 
 					kernel_initializer=kernel_init,
 					input_dim=issue_matrix.shape[1], 
 					activation='sigmoid'))
 	model.add(Dropout(0.5))
-	#model.add(Dense(256, activation='sigmoid'))
-	#model.add(Dropout(0.5))
 	model.add(Dense(128, 
 					kernel_initializer=kernel_init,
 					activation='sigmoid'))
 	model.add(Dropout(0.5))
 	model.add(Dense(len(label_list), activation='softmax'))
-	#model.add(Dense(128))
-	#model.add(Activation('sigmoid'))
 	model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
@@ -135,22 +134,8 @@ def main():
 	model.summary()
 	#history = model.fit(input_data, input_label, validation_split=0.2, epochs=500, batch_size=10)
 	history = model.fit(input_data, input_label, epochs=500, batch_size=20)
-
-	if False:
-		issue_matrix = tokenizer.texts_to_matrix(test_text)
-		issue_matrix = pad_sequences(issue_matrix, maxlen=100)
-		input_data = np.asarray(issue_matrix)
-		input_label = np.asarray(test_label)
-
-		predict = model.predict(input_data).flatten()
-		predict = [1 if p > 0.7 else 0 for p in predict]
-		predict = np.asarray(predict)
-		print('predict = ', predict)
-		print('real = ', input_label)
-		diff =  predict - input_label
-		diff_cnt = np.count_nonzero(diff)
-		print('incorrect = {}/{}'.format(diff_cnt, predict.shape[0]))
 	
+	# plot the result
 	if False:
 		plt.plot(history.history['acc'])
 		plt.plot(history.history['val_acc'])
@@ -168,23 +153,22 @@ def main():
 		plt.legend(['train', 'test'], loc='upper left')
 		plt.show()	
 	
-	#test_matrix = tokenizer.texts_to_matrix(test_text)
-	#test_matrix = pad_sequences(test_matrix, maxlen=200)
+	# transform the test data
 	input_data = np.asarray(test_matrix)
 	input_label = to_categorical(np.asarray(test_label))
 	score = model.evaluate(input_data, input_label)
 	
+	# classify the test data
 	print('evaluate score = ', score)
-	#input_label = to_categorical(np.asarray(test_label))
 	predicts = model.predict_classes(input_data)
 	
 	print('predict = ', predicts)
-	#table = pd.crosstab(test_label, predicts)#, rownames=['test_label'], colnames=['predicts'])
-	#print(table)
+	# print the result by pandas
 	df = pd.DataFrame({'label':test_label, 'predict':predicts, 'key':test_key})
 	print('=======predict error {}/{}========='.format(len(df[df['label']!=df['predict']]), len(test_label)))
 	print(df[df['label']!=df['predict']])
 
+	# print the probability of each class
 	pred_prob = model.predict_proba(input_data)
 	ofile = open("pred_prob.txt", "w")
 	for (key, real, pred, prob) in zip(test_key, test_label, predicts, pred_prob):
@@ -194,8 +178,8 @@ def main():
 		for pp in prob.tolist():
 			ofile.write(' {:.3f}'.format(pp))
 		ofile.write('\n')
-		#ofile.write('{} {} {}\n'.format(key, real, pred))
 	
+	# print the summary
 	ofile.write('\n\nSummary\n')
 	ofile.write('total wrong {}/{}\n'.format(len(df[df['label']!=df['predict']]), len(test_label)))
 	ofile.write('evaluate score = {}\n'.format(score))

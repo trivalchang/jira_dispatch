@@ -7,20 +7,15 @@ import re
 import numpy as np
 from xml.etree import ElementTree
 from xml.etree.ElementTree import Element, SubElement
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
 from collections import OrderedDict
 import nltk
 from hanziconv import HanziConv
 
+# download nltk package
 nltk.download('wordnet')
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk import word_tokenize, pos_tag
-from nltk.stem import WordNetLemmatizer
-
-#sys.path.append('./utility')
-#from fileOp.h5_dataset import h5_dump_dataset, h5_load_dataset
 
 lmtzr = WordNetLemmatizer()
 
@@ -53,9 +48,6 @@ class jira_xml_reader:
 			print('can not decode description')
 			return lines
 		lines = lines.join(desc_root.itertext())
-		#for element in desc_root.iter():
-			#if element.text != None:
-				#lines.append(element.text)			
 		
 		return lines
 		
@@ -132,32 +124,11 @@ def readVocabulary(fname):
 	f.close()
 	return _vocab
 
-fileList = ['AND_Andy.xml']
-fileList = fileList + ['AND_JOE.xml']
-fileList = fileList + ['AND_ATA.xml']
-fileList = fileList + ['AND_MANDY.xml']
-fileList = fileList + ['AND_BRUCE.xml']
-#fileList = fileList + ['ML4BU.xml']
-fileList = fileList + ['HKANDN.xml']
-fileList = fileList + ['Merlin3_RokuTV.xml']
-fileList = fileList + ['Merlin3_RTK_Android_N_TV.xml']
-fileList = fileList + ['M5PRTANOM.xml']
-fileList = fileList + ['ML3RTANOM.xml']
-#fileList = fileList + ['MA6PBU.xml']
-#fileList = fileList + ['ML4BU.xml']
-fileList = fileList + ['Mac5p-RTK-AND_N_TV.xml']
-fileList = fileList + ['MAC6HKANDN.xml']
 def main():
-
-	nltk.download("wordnet")
-	nltk.download("averaged_perceptron_tagger")
-	nltk.download("punkt")
-	nltk.download("maxnet_treebank_pos_tagger")
 	
 	myDict = readChinesetoEnglishDict("translate1.txt")
 	myVocab = readVocabulary("vocabulary.txt")
 	myAssignee = readAssignee("assignee.txt")
-	tokenizer = Tokenizer()
 
 	# prepare regulation expression to remove symobls, characters, or unuseful chinses words
 	list_patterns = [r'<p>', r'</p>', r'<br/>', r'\n', r'[\[\]]', r'[\u4E00-\u9FA5]', r'[\\,:_=-]']		
@@ -170,6 +141,13 @@ def main():
 	issue_label = []
 	issue_key = []
 	issue_assignee = []
+
+	fileList = []
+	for f in os.listdir('xml'):
+		if f.endswith(".xml") == False:
+			continue
+		fileList.append('xml/'+f)
+
 	for f in fileList:
 		# prepare for xml parser
 		issue_parser = jira_xml_reader(f)
@@ -180,12 +158,7 @@ def main():
 			words = []
 			# combine the values of different tags to form a string
 			text = title + ' ' + summary + ' ' + desc
-			# translate simplified chinese to traditional chinese
-			#textc = HanziConv.toTraditional(text)
-			#if textc != text:
-			#	print('original: ', text)
-			#	print('new: ', textc)
-			# translate chinese into english by proprietary dictionary
+			# translate chinese to english by proprietary dictionary
 			text = translate_text(text, myDict)
 			# remove symbols, tags and unuseful word
 			_text = prurify_text(text, toRemoveRe, myVocab)
@@ -201,7 +174,7 @@ def main():
 			issue_cnt = issue_cnt + 1
 			
 	assignees, counts = np.unique(issue_assignee, return_counts=True)
-	# show the issue number of all assignees
+	# show the issue number of all assignees, information only
 	for (assignee, count) in zip(assignees, counts):
 		#if count >= 80 and assignee in myAssignee:
 		if count >= 0:
@@ -209,6 +182,7 @@ def main():
 		
 	print('\n\nTotal Issue         {}'.format(issue_cnt))
 
+	# output the result to a file for training/test
 	ofile = open("issue_Output.txt", "w")
 	issue_label = np.asarray(issue_label)
 	issue_text = np.asarray(issue_text)
@@ -221,4 +195,5 @@ def main():
 			ofile.write('{},{},{}\n'.format(key, label, text))
 		
 	ofile.close()
+	
 main()
